@@ -1,0 +1,66 @@
+Sample_ID,Drug_Pair,True_Label,CatB_Binary,CatB_Multi,DT_Binary,DT_Multi,LogReg_Binary,LogReg_Multi,RF_Binary,RF_Multi,SVM_Binary,SVM_Multi,XGB_Binary,XGB_Multi
+0,gadobenic acid + pindolol,Moderate,No Interaction,Moderate,No Interaction,Moderate,Interaction,Moderate,No Interaction,Moderate,Interaction,Moderate,No Interaction,Moderate
+1,diazoxide + pioglitazone,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate
+2,atropine + iopamidol,Unknown,Interaction,Unknown,Interaction,Major,Interaction,Major,Interaction,Unknown,Interaction,Major,Interaction,Unknown
+3,bosutinib + roflumilast,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+4,deflazacort + quinine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+5,sirolimus + deferasirox,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major
+6,olopatadine + paclitaxel,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+7,acyclovir + loratadine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+8,bisoprolol + gadoxetic acid,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate
+9,phenylephrine (topical) + iobenguane (i-131),Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major
+10,halofantrine + cobicistat,Major,Interaction,Moderate,Interaction,Major,Interaction,Moderate,Interaction,Major,Interaction,Major,Interaction,Major
+11,mebendazole + triamcinolone (nasal),No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+12,mifepristone + patiromer,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+13,indacaterol + tetracycline,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+14,iopamidol + vortioxetine,Major,No Interaction,Major,No Interaction,Major,Interaction,Major,No Interaction,Major,Interaction,Major,No Interaction,Major
+15,asenapine + axitinib,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+16,iron + tigecycline,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+17,capreomycin + iodipamide,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major
+18,folic acid + ondansetron,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+19,iopamidol + naldemedine,No Interaction,No Interaction,No Interaction,No Interaction,Major,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,Major,No Interaction,No Interaction
+20,prednisone + promethazine,Unknown,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+21,prazosin + zidovudine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+22,ethanol + vortioxetine,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate
+23,methylphenobarbital + ethanol,Major,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate,Interaction,Moderate
+24,iopamidol + edetate calcium disodium anhydrous,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major
+25,adefovir dipivoxil + lanthanum carbonate,No Interaction,Interaction,Moderate,No Interaction,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,Moderate,No Interaction,No Interaction
+26,avanafil + tolvaptan,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+27,echothiophate (ophthalmic) + mefloquine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+28,idarubicin + ledipasvir,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+29,lactic acid + zanubrutinib,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+30,cariprazine + cromoglicic acid,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+31,mefenamic acid + iodipamide,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major,Interaction,Major
+32,acetylsalicylic acid + ibuprofen,Major,Interaction,No Interaction,No Interaction,Unknown,Interaction,No Interaction,No Interaction,No Interaction,Interaction,Unknown,No Interaction,No Interaction
+33,warfarin + acetylsalicylic acid,Major,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+34,clopidogrel + acetylsalicylic acid,Major,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+35,heparin + acetylsalicylic acid,Major,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+36,metformin + iodinated contrast,Major,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,Moderate,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction
+37,simvastatin + clarithromycin,Major,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+38,sertraline + linezolid,Major,No Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction
+39,amiodarone + fluconazole,Major,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction
+40,metformin + furosemide,Moderate,Interaction,No Interaction,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+41,lisinopril + spironolactone,Major,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+42,digoxin + verapamil,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,Unknown,Interaction,Unknown,No Interaction,No Interaction
+43,atorvastatin + amlodipine,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+44,fluoxetine + tramadol,Major,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+45,carbamazepine + oral contraceptives,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,Moderate,No Interaction,No Interaction,Interaction,Moderate,No Interaction,No Interaction
+46,warfarin + amiodarone,Major,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+47,metformin + omeprazole,Unknown,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+48,ibuprofen + lisinopril,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,Interaction,Unknown,No Interaction,No Interaction
+49,Acetaminophen + warfarin,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+50,amlodipine + simvastatin,Major,Interaction,Unknown,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction
+51,metformin + cetirizine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction,Interaction,No Interaction,No Interaction,No Interaction
+52,amoxicillin + Acetaminophen,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+53,insulin + loratadine,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+54,atorvastatin + azithromycin,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+55,metformin + gabapentin,Unknown,Interaction,No Interaction,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown,Interaction,Unknown
+56,sertraline + vitamin d,Unknown,No Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,Interaction,No Interaction,Interaction,Unknown,Interaction,No Interaction
+57,metformin + Acetaminophen,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,Moderate,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction
+58,Vandetanib + Omeprazole,Minor,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+59,ibuprofen + Acetaminophen,Unknown,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction
+60,Citalopram + Fosphenytoin,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+61,Fludrocortisone + Fosphenytoin,Moderate,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+62,Promethazine + Folic acid,Unknown,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
+63,ibuprofen + Acetaminophen,Unknown,No Interaction,No Interaction,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction,Interaction,Major,No Interaction,No Interaction
+64,Amlodipine + Rosuvastatin,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction,No Interaction
