@@ -41,3 +41,9 @@ All the models were tested with real-world-like noisy drug pairs their results w
 **Inference Time:** 0.008006s
 ### Using Binary Classification Logistic Regression Model
 You can find the saved model .pkl file [here](https://github.com/12345GraceK/DDI-Using-ML/tree/main/Junior%20Final/Saved_Models).
+You can find the prediction function [here](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/predict.py).
+## Installation
+`git clone https://github.com
+cd Junior-Final
+pip install -r requirements.txt
+`
