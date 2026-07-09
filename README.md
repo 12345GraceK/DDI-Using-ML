@@ -42,8 +42,40 @@ All the models were tested with real-world-like noisy drug pairs their results w
 ### Using Binary Classification Logistic Regression Model
 You can find the saved model .pkl file [here](https://github.com/12345GraceK/DDI-Using-ML/tree/main/Junior%20Final/Saved_Models).
 You can find the prediction function [here](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/predict.py).
-## Installation
-`git clone https://github.com
+## Installation & Setup
+
+Run the following commands in your terminal or prompt to set up the project environment and launch the Jupyter workspace.  <br/>
+**Clone the repository and navigate into the project directory**
+
+```
+git clone https://github.com
 cd Junior-Final
+```
+
+**Setup an isolated environment (Choose ONLY ONE option based on your preference)** <br/>
+Option A: For Anaconda Users
+```
+conda create --name ddi-env python=3.12 -y && conda activate ddi-env
+```
+Option B: For Standard Python Users (Terminal/CLI scripts)
+```
+python3.12 -m venv venv && source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+Option C: For Non-Anaconda Users running Jupyter Notebook
+```
+python3.12 -m venv venv && source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install ipykernel
+python -m ipykernel install --user --name=ddi-env --display-name "Python 3.12 (ddi-env)"
+```
+Install the required packages
+```
 pip install -r requirements.txt
-`
+```
+Install Jupyter and launch the workspace
+```
+pip install jupyter notebook
+jupyter notebook
+```
+
+*Note: If you followed Option A or C, ensure your notebook kernel is switched to `Python 3.12 (ddi-env)` from the top menu (`Kernel` -> `Change kernel`) once Jupyter opens to prevent dependency conflicts.*
+
