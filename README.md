@@ -39,3 +39,5 @@ All the models were tested with real-world-like noisy drug pairs their results w
 **Recall:** 91.43% <br/>
 **F1-Score:** 90.70% <br/>
 **Inference Time:** 0.008006s
+### Using Binary Classification Logistic Regression Model
+You can find the saved model .pkl file [here](https://github.com/12345GraceK/DDI-Using-ML/tree/main/Junior%20Final/Saved_Models).
