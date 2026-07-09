@@ -79,3 +79,15 @@ jupyter notebook
 
 *Note: If you followed Option A or C, ensure your notebook kernel is switched to `Python 3.12 (ddi-env)` from the top menu (`Kernel` -> `Change kernel`) once Jupyter opens to prevent dependency conflicts.*
 
+## Contributing to this project
+Read this if you are interested in contributing to this project:
+
+### Experiments
+While the pipeline achieves strong baseline statistics (~90% F1-score), there's still some experiments to do. <br/>
+1. The DDinter dataset contains a class called (Unknown) it contains drugs that researchers don't know wethere they interact with each other or not. In this pipline this class was kept. we can try to delete this class and rely on the negative sampling.
+2. Skip the negative sampling so that in multi-class clalssification we have (major, moderate, minor and Unknown) without the no interaction class as unknown can be considered equivelant to no interaction (no known interactions).
+3. Use different more comprehensive datasets.
+4. Use the full DDinter dataset by concatinating the different subsets.
+
+### Issues
+1. The current pipline doesn't acknowledge that (drug a, drug b) = (drug b, drug a).
