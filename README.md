@@ -3,5 +3,27 @@ This repository contains a comprehensive benchmarking framework evaluating 12 di
 # Datasets used
 You can find all the datasets in the [Data Folder](https://github.com/12345GraceK/DDI-Using-ML/tree/main/Junior%20Final/Data).
 ## Initial Dataset
-[DDinter's various drugs dataset](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Data/ddinter_downloads_code_V.csv) was used in this project.
+[DDinter](https://ddinter.scbdd.com/)'s various drugs dataset was used in this project. 
+You can find it in the data folder [here](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Data/ddinter_downloads_code_V.csv). 
 You can find the data cleaning and preparation in [this notebook](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/preparing%20full%20DDinter%20Dataset.ipynb).
+During the data preparation, we used negative sampling, then verified the negative samples using mghobashy's [Drug-Drug Interaction dataset on Kaggle](https://www.kaggle.com/datasets/mghobashy/drug-drug-interactions). You can find it in the data folder [here](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Data/db_drug_interactions.csv).
+# Classification Tasks
+Both binary Classification and multi-class classification were tested for all models.
+# Pipeline
+Target Encoding -> StandardScaler -> Model
+# Models
+You can find all the model training, testing, and results in the [notebooks folder](https://github.com/12345GraceK/DDI-Using-ML/tree/main/Junior%20Final/Notebooks).
+## Binary Classification
+[Logistic Regression](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_LogisticRegression_Binary.ipynb),
+[SVM](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_SVM_Binary.ipynb),
+[Random Forest](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_RandomForest_Binary.ipynb), 
+[Decision Tree](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_DecisionTree_Binary.ipynb), 
+[XGBoost](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_XGBoost_Binary.ipynb), 
+[CatBoost](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_CatBoost_Binary.ipynb).
+## Multi-class Classification
+[Logistic Regression](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_LogisticRegression_Multi.ipynb),
+[SVM](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_SVM_Multi.ipynb),
+[Random Forest](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_RandomForest_Multi.ipynb), 
+[Decision Tree](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_DecisionTree_Multi.ipynb), 
+[XGBoost](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_XGBoost_Multi.ipynb), 
+[CatBoost](https://github.com/12345GraceK/DDI-Using-ML/blob/main/Junior%20Final/Notebooks/DDinter_CatBoost_Multi.ipynb).
